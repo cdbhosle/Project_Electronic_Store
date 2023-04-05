@@ -12,10 +12,7 @@ public class ElectronicStoreApplication {
 		SpringApplication.run(ElectronicStoreApplication.class, args);
 	}
 
-	@Bean
-	public ModelMapper modelMapper(){
-		return new ModelMapper();
-	}
+
 
 
 }

@@ -1,66 +1,8 @@
-04:04 08:38:30.629 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7894 (http)
-04:04 08:38:30.813 [main] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 2440 ms
-04:04 08:38:33.727 [main] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-04:04 08:38:34.181 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port(s): 7894 (http) with context path ''
-04:04 08:40:01.811 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7894 (http)
-04:04 08:40:02.097 [main] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 3043 ms
-04:04 08:40:05.940 [main] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-04:04 08:40:06.464 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port(s): 7894 (http) with context path ''
-04:04 08:40:30.180 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7894 (http)
-04:04 08:40:30.318 [main] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1644 ms
-04:04 08:40:32.371 [main] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-04:04 08:40:32.720 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port(s): 7894 (http) with context path ''
-04:04 08:43:04.713 [main] [ERROR] [o.s.boot.SpringApplication] - Application run failed
-org.springframework.boot.context.config.InvalidConfigDataPropertyException: Property 'spring.profiles.active' imported from location 'class path resource [application-pilot.properties]' is invalid in a profile specific resource [origin: class path resource [application-pilot.properties] - 1:24]
-	at org.springframework.boot.context.config.InvalidConfigDataPropertyException.lambda$throwOrWarn$1(InvalidConfigDataPropertyException.java:125)
-	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
-	at java.base/java.util.Collections$UnmodifiableCollection.forEach(Collections.java:1092)
-	at org.springframework.boot.context.config.InvalidConfigDataPropertyException.throwOrWarn(InvalidConfigDataPropertyException.java:122)
-	at org.springframework.boot.context.config.ConfigDataEnvironment.checkForInvalidProperties(ConfigDataEnvironment.java:362)
-	at org.springframework.boot.context.config.ConfigDataEnvironment.applyToEnvironment(ConfigDataEnvironment.java:326)
-	at org.springframework.boot.context.config.ConfigDataEnvironment.processAndApply(ConfigDataEnvironment.java:233)
-	at org.springframework.boot.context.config.ConfigDataEnvironmentPostProcessor.postProcessEnvironment(ConfigDataEnvironmentPostProcessor.java:102)
-	at org.springframework.boot.context.config.ConfigDataEnvironmentPostProcessor.postProcessEnvironment(ConfigDataEnvironmentPostProcessor.java:94)
-	at org.springframework.boot.env.EnvironmentPostProcessorApplicationListener.onApplicationEnvironmentPreparedEvent(EnvironmentPostProcessorApplicationListener.java:102)
-	at org.springframework.boot.env.EnvironmentPostProcessorApplicationListener.onApplicationEvent(EnvironmentPostProcessorApplicationListener.java:87)
-	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
-	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
-	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
-	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
-	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:85)
-	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:66)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:120)
-	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:114)
-	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:65)
-	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:343)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:301)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
-	at com.shruteekatech.electronic.store.ElectronicStoreApplication.main(ElectronicStoreApplication.java:10)
-04:04 08:43:28.232 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7894 (http)
-04:04 08:43:28.372 [main] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1581 ms
-04:04 08:43:30.350 [main] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-04:04 08:43:30.680 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port(s): 7894 (http) with context path ''
-04:04 08:46:33.523 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7894 (http)
-04:04 08:46:33.658 [main] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1677 ms
-04:04 08:46:35.694 [main] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-04:04 08:46:36.014 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port(s): 7894 (http) with context path ''
-04:04 08:49:45.331 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7894 (http)
-04:04 08:49:45.470 [main] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1707 ms
-04:04 08:49:47.581 [main] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-04:04 08:49:47.920 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port(s): 7894 (http) with context path ''
-04:04 08:51:43.473 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7894 (http)
-04:04 08:51:43.625 [main] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1704 ms
-04:04 08:51:45.749 [main] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-04:04 08:51:46.105 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port(s): 7894 (http) with context path ''
-04:04 08:52:24.496 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 8080 (http)
-04:04 08:52:24.662 [main] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1819 ms
-04:04 08:52:24.742 [main] [WARN] [o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
-04:04 08:52:24.770 [main] [INFO] [o.s.b.a.l.ConditionEvaluationReportLoggingListener] - 
+04:05 11:18:33.968 [main] [WARN] [o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'modelMapper' defined in com.shruteekatech.electronic.store.ElectronicStoreApplication: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=electronicStoreApplication; factoryMethodName=modelMapper; initMethodName=null; destroyMethodName=(inferred); defined in com.shruteekatech.electronic.store.ElectronicStoreApplication] for bean 'modelMapper': There is already [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=projectConfig; factoryMethodName=modelMapper; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/shruteekatech/electronic/store/config/ProjectConfig.class]] bound.
+04:05 11:18:34.109 [main] [INFO] [o.s.b.a.l.ConditionEvaluationReportLoggingListener] - 
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-04:04 08:52:24.800 [main] [ERROR] [o.s.b.d.LoggingFailureAnalysisReporter] - 
+04:05 11:18:34.158 [main] [ERROR] [o.s.b.d.LoggingFailureAnalysisReporter] - 
 
 ***************************
 APPLICATION FAILED TO START
@@ -68,24 +10,17 @@ APPLICATION FAILED TO START
 
 Description:
 
-Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
-
-Reason: Failed to determine a suitable driver class
-
+The bean 'modelMapper', defined in com.shruteekatech.electronic.store.ElectronicStoreApplication, could not be registered. A bean with that name has already been defined in class path resource [com/shruteekatech/electronic/store/config/ProjectConfig.class] and overriding is disabled.
 
 Action:
 
-Consider the following:
-	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
-	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
 
-04:04 08:53:05.248 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 8080 (http)
-04:04 08:53:05.402 [main] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1694 ms
-04:04 08:53:05.486 [main] [WARN] [o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
-04:04 08:53:05.515 [main] [INFO] [o.s.b.a.l.ConditionEvaluationReportLoggingListener] - 
+04:05 11:21:01.515 [main] [WARN] [o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'modelMapper' defined in com.shruteekatech.electronic.store.ElectronicStoreApplication: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=electronicStoreApplication; factoryMethodName=modelMapper; initMethodName=null; destroyMethodName=(inferred); defined in com.shruteekatech.electronic.store.ElectronicStoreApplication] for bean 'modelMapper': There is already [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=projectConfig; factoryMethodName=modelMapper; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/shruteekatech/electronic/store/config/ProjectConfig.class]] bound.
+04:05 11:21:01.533 [main] [INFO] [o.s.b.a.l.ConditionEvaluationReportLoggingListener] - 
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-04:04 08:53:05.536 [main] [ERROR] [o.s.b.d.LoggingFailureAnalysisReporter] - 
+04:05 11:21:01.579 [main] [ERROR] [o.s.b.d.LoggingFailureAnalysisReporter] - 
 
 ***************************
 APPLICATION FAILED TO START
@@ -93,68 +28,85 @@ APPLICATION FAILED TO START
 
 Description:
 
-Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
-
-Reason: Failed to determine a suitable driver class
-
+The bean 'modelMapper', defined in com.shruteekatech.electronic.store.ElectronicStoreApplication, could not be registered. A bean with that name has already been defined in class path resource [com/shruteekatech/electronic/store/config/ProjectConfig.class] and overriding is disabled.
 
 Action:
 
-Consider the following:
-	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
-	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
 
-04:04 08:53:40.486 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 8080 (http)
-04:04 08:53:40.629 [main] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1682 ms
-04:04 08:53:40.705 [main] [WARN] [o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
-04:04 08:53:40.734 [main] [INFO] [o.s.b.a.l.ConditionEvaluationReportLoggingListener] - 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-04:04 08:53:40.759 [main] [ERROR] [o.s.b.d.LoggingFailureAnalysisReporter] - 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
-
-Reason: Failed to determine a suitable driver class
-
-
-Action:
-
-Consider the following:
-	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
-	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
-
-04:04 08:54:19.643 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 8080 (http)
-04:04 08:54:19.787 [main] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1733 ms
-04:04 08:54:19.874 [main] [WARN] [o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
-04:04 08:54:19.910 [main] [INFO] [o.s.b.a.l.ConditionEvaluationReportLoggingListener] - 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-04:04 08:54:19.936 [main] [ERROR] [o.s.b.d.LoggingFailureAnalysisReporter] - 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
-
-Reason: Failed to determine a suitable driver class
-
-
-Action:
-
-Consider the following:
-	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
-	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
-
-04:04 08:55:38.050 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7894 (http)
-04:04 08:55:38.207 [main] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1722 ms
-04:04 08:55:40.361 [main] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-04:04 08:55:40.697 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port(s): 7894 (http) with context path ''
+04:05 11:23:35.522 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7894 (http)
+04:05 11:23:35.836 [main] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 3169 ms
+04:05 11:23:39.975 [main] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04:05 11:23:40.641 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port(s): 7894 (http) with context path ''
+04:05 11:43:10.225 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7894 (http)
+04:05 11:43:10.538 [main] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 3241 ms
+04:05 11:43:14.636 [main] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04:05 11:43:15.233 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port(s): 7894 (http) with context path ''
+04:05 11:51:20.358 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7894 (http)
+04:05 11:51:20.637 [main] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 3031 ms
+04:05 11:51:24.901 [main] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04:05 11:51:25.488 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port(s): 7894 (http) with context path ''
+04:05 12:53:21.362 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7894 (http)
+04:05 12:53:21.839 [main] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 3573 ms
+04:05 12:53:26.085 [main] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04:05 12:53:26.650 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port(s): 7894 (http) with context path ''
+04:05 13:04:13.663 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7894 (http)
+04:05 13:04:13.927 [main] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 2945 ms
+04:05 13:04:18.232 [main] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04:05 13:04:18.842 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port(s): 7894 (http) with context path ''
+04:05 13:13:50.245 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7894 (http)
+04:05 13:13:50.375 [main] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1599 ms
+04:05 13:13:52.389 [main] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04:05 13:13:52.753 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port(s): 7894 (http) with context path ''
+04:05 13:19:56.985 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7894 (http)
+04:05 13:19:57.113 [main] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1638 ms
+04:05 13:19:59.085 [main] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04:05 13:19:59.427 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port(s): 7894 (http) with context path ''
+04:05 13:22:08.885 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7894 (http)
+04:05 13:22:09.014 [main] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1591 ms
+04:05 13:22:10.993 [main] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04:05 13:22:11.313 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port(s): 7894 (http) with context path ''
+04:05 13:26:24.481 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7894 (http)
+04:05 13:26:24.598 [main] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1531 ms
+04:05 13:26:26.540 [main] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04:05 13:26:26.848 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port(s): 7894 (http) with context path ''
+04:05 13:32:25.137 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7894 (http)
+04:05 13:32:25.251 [main] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1600 ms
+04:05 13:32:27.246 [main] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04:05 13:32:27.600 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port(s): 7894 (http) with context path ''
+04:05 13:37:12.281 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7894 (http)
+04:05 13:37:12.675 [main] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 2325 ms
+04:05 13:37:15.802 [main] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04:05 13:37:16.313 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port(s): 7894 (http) with context path ''
+04:05 13:41:31.000 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7894 (http)
+04:05 13:41:31.143 [main] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1924 ms
+04:05 13:41:33.366 [main] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04:05 13:41:33.693 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port(s): 7894 (http) with context path ''
+04:05 13:44:51.880 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7894 (http)
+04:05 13:44:52.014 [main] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1563 ms
+04:05 13:44:54.038 [main] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04:05 13:44:54.359 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port(s): 7894 (http) with context path ''
+04:05 14:00:55.565 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7894 (http)
+04:05 14:00:55.815 [main] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1904 ms
+04:05 14:00:58.053 [main] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04:05 14:00:58.410 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port(s): 7894 (http) with context path ''
+04:05 14:04:15.500 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7894 (http)
+04:05 14:04:15.623 [main] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1600 ms
+04:05 14:04:17.489 [main] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04:05 14:04:17.807 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port(s): 7894 (http) with context path ''
+04:05 14:08:15.171 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7894 (http)
+04:05 14:08:15.299 [main] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1623 ms
+04:05 14:08:17.198 [main] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04:05 14:08:17.537 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port(s): 7894 (http) with context path ''
+04:05 14:12:33.368 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7894 (http)
+04:05 14:12:33.491 [main] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1748 ms
+04:05 14:12:35.549 [main] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04:05 14:12:35.888 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port(s): 7894 (http) with context path ''
+04:05 14:17:00.672 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7894 (http)
+04:05 14:17:00.941 [main] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 2903 ms
+04:05 14:17:05.153 [main] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04:05 14:17:05.725 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port(s): 7894 (http) with context path ''
+04:05 14:25:14.304 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7894 (http)
+04:05 14:25:14.584 [main] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 3282 ms
+04:05 14:25:19.078 [main] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04:05 14:25:19.898 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port(s): 7894 (http) with context path ''

@@ -15,6 +15,8 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
+import java.util.UUID;
+
 
 @Service
 public class CategoryServiceImpl implements CategoryServiceI {
@@ -22,8 +24,12 @@ public class CategoryServiceImpl implements CategoryServiceI {
     private CategoryRepository categoryRepository;
     @Autowired
     private ModelMapper modelMapper;
+
     @Override
     public CategoryDto create(CategoryDto categoryDto) {
+
+        //creating categoryId :randomely
+
         Category category = modelMapper.map(categoryDto, Category.class);
         Category saveCategory = categoryRepository.save(category);
 
@@ -52,10 +58,10 @@ public class CategoryServiceImpl implements CategoryServiceI {
     }
 
     @Override
-    public PageableResponse<CategoryDto> getAll(int pageNumber,int pageSize,String sortBy,String sortDir) {
+    public PageableResponse<CategoryDto> getAll(int pageNumber, int pageSize, String sortBy, String sortDir) {
         Pageable pageable = PageRequest.of(pageNumber, pageSize);
 
-        Sort sort=(sortBy.equalsIgnoreCase("desc")) ? (Sort.by(sortBy).descending()) : (Sort.by(sortBy).ascending());
+        Sort sort = (sortBy.equalsIgnoreCase("desc")) ? (Sort.by(sortBy).descending()) : (Sort.by(sortBy).ascending());
 
         Page<Category> page = categoryRepository.findAll(pageable);
         PageableResponse<CategoryDto> pageableResponse = Helper.getPageableResponse(page, CategoryDto.class);
