@@ -1,5 +1,6 @@
 package com.shruteekatech.electronic.store.entities;
 
+import com.shruteekatech.electronic.store.dtos.BaseEntity;
 import lombok.*;
 import org.hibernate.annotations.GeneratorType;
 
@@ -12,7 +13,7 @@ import javax.persistence.*;
 @Builder
 @Entity
 @Table(name="categories")
-public class Category {
+public class Category extends BaseEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

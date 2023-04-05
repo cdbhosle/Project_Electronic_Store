@@ -110,3 +110,11 @@ Consider renaming one of the beans or enabling overriding by setting spring.main
 04:05 14:25:14.584 [main] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 3282 ms
 04:05 14:25:19.078 [main] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 04:05 14:25:19.898 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port(s): 7894 (http) with context path ''
+04:05 16:45:43.330 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7894 (http)
+04:05 16:45:43.617 [main] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 3210 ms
+04:05 16:45:48.413 [main] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04:05 16:45:49.065 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port(s): 7894 (http) with context path ''
+04:05 16:49:52.909 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7894 (http)
+04:05 16:49:53.166 [main] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 2926 ms
+04:05 16:49:57.323 [main] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04:05 16:49:57.879 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port(s): 7894 (http) with context path ''
