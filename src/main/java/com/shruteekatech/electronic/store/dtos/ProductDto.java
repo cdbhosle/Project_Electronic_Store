@@ -20,7 +20,7 @@ public class ProductDto {
     private int quantity;
 
     private int discountedPrice;
-    private Date addDate;
+   // private Date addDate;
 
     private boolean live;
 
