@@ -8,16 +8,18 @@ public class ImageNameValidator implements ConstraintValidator <ImageNameValid,S
     @Override
     public boolean isValid(String value, ConstraintValidatorContext context) {
 
-        log.info("Message from isValid: {}",value);
-
-        if(value.isBlank())
-        {
-            return  false;
+        log.info("Message from isValid: {}", value);
+        try {
+            if (value.isBlank()) {
+                return false;
+            } else {
+                return true;
+            }
+        } catch (NullPointerException n) {
+            n.getMessage();
         }
-        else
-        {
-            return true;
-        }
 
+
+        return false;
     }
 }
