@@ -1,120 +1,179 @@
-04:05 11:18:33.968 [main] [WARN] [o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'modelMapper' defined in com.shruteekatech.electronic.store.ElectronicStoreApplication: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=electronicStoreApplication; factoryMethodName=modelMapper; initMethodName=null; destroyMethodName=(inferred); defined in com.shruteekatech.electronic.store.ElectronicStoreApplication] for bean 'modelMapper': There is already [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=projectConfig; factoryMethodName=modelMapper; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/shruteekatech/electronic/store/config/ProjectConfig.class]] bound.
-04:05 11:18:34.109 [main] [INFO] [o.s.b.a.l.ConditionEvaluationReportLoggingListener] - 
+04:07 13:24:28.025 [main] [INFO] [o.s.b.t.c.SpringBootTestContextBootstrapper] - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.shruteekatech.electronic.store.ElectronicStore.ElectronicStoreApplicationTests], using SpringBootContextLoader
+04:07 13:24:28.171 [main] [INFO] [o.s.b.t.c.SpringBootTestContextBootstrapper] - Found @SpringBootConfiguration com.shruteekatech.electronic.store.ElectronicStoreApplication for test class com.shruteekatech.electronic.store.ElectronicStore.ElectronicStoreApplicationTests
+04:07 13:24:28.374 [main] [INFO] [o.s.b.t.c.SpringBootTestContextBootstrapper] - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+04:07 13:24:28.397 [main] [INFO] [o.s.b.t.c.SpringBootTestContextBootstrapper] - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@710b18a6, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@119020fb, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@3d9f6567, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@c055c54, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@25e2ab5a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@35e5d0e5, org.springframework.test.context.transaction.TransactionalTestExecutionListener@73173f63, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@55562aa9, org.springframework.test.context.event.EventPublishingTestExecutionListener@655ef322, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7e276594, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@3401a114, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5066d65f, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4233e892, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@77d2e85, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@3ecd267f]
+04:07 13:24:35.595 [main] [INFO] [o.s.b.a.l.ConditionEvaluationReportLoggingListener] - 
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-04:05 11:18:34.158 [main] [ERROR] [o.s.b.d.LoggingFailureAnalysisReporter] - 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-The bean 'modelMapper', defined in com.shruteekatech.electronic.store.ElectronicStoreApplication, could not be registered. A bean with that name has already been defined in class path resource [com/shruteekatech/electronic/store/config/ProjectConfig.class] and overriding is disabled.
-
-Action:
-
-Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
-
-04:05 11:21:01.515 [main] [WARN] [o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'modelMapper' defined in com.shruteekatech.electronic.store.ElectronicStoreApplication: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=electronicStoreApplication; factoryMethodName=modelMapper; initMethodName=null; destroyMethodName=(inferred); defined in com.shruteekatech.electronic.store.ElectronicStoreApplication] for bean 'modelMapper': There is already [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=projectConfig; factoryMethodName=modelMapper; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/shruteekatech/electronic/store/config/ProjectConfig.class]] bound.
-04:05 11:21:01.533 [main] [INFO] [o.s.b.a.l.ConditionEvaluationReportLoggingListener] - 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-04:05 11:21:01.579 [main] [ERROR] [o.s.b.d.LoggingFailureAnalysisReporter] - 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-The bean 'modelMapper', defined in com.shruteekatech.electronic.store.ElectronicStoreApplication, could not be registered. A bean with that name has already been defined in class path resource [com/shruteekatech/electronic/store/config/ProjectConfig.class] and overriding is disabled.
-
-Action:
-
-Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
-
-04:05 11:23:35.522 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7894 (http)
-04:05 11:23:35.836 [main] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 3169 ms
-04:05 11:23:39.975 [main] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-04:05 11:23:40.641 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port(s): 7894 (http) with context path ''
-04:05 11:43:10.225 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7894 (http)
-04:05 11:43:10.538 [main] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 3241 ms
-04:05 11:43:14.636 [main] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-04:05 11:43:15.233 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port(s): 7894 (http) with context path ''
-04:05 11:51:20.358 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7894 (http)
-04:05 11:51:20.637 [main] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 3031 ms
-04:05 11:51:24.901 [main] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-04:05 11:51:25.488 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port(s): 7894 (http) with context path ''
-04:05 12:53:21.362 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7894 (http)
-04:05 12:53:21.839 [main] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 3573 ms
-04:05 12:53:26.085 [main] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-04:05 12:53:26.650 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port(s): 7894 (http) with context path ''
-04:05 13:04:13.663 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7894 (http)
-04:05 13:04:13.927 [main] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 2945 ms
-04:05 13:04:18.232 [main] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-04:05 13:04:18.842 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port(s): 7894 (http) with context path ''
-04:05 13:13:50.245 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7894 (http)
-04:05 13:13:50.375 [main] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1599 ms
-04:05 13:13:52.389 [main] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-04:05 13:13:52.753 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port(s): 7894 (http) with context path ''
-04:05 13:19:56.985 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7894 (http)
-04:05 13:19:57.113 [main] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1638 ms
-04:05 13:19:59.085 [main] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-04:05 13:19:59.427 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port(s): 7894 (http) with context path ''
-04:05 13:22:08.885 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7894 (http)
-04:05 13:22:09.014 [main] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1591 ms
-04:05 13:22:10.993 [main] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-04:05 13:22:11.313 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port(s): 7894 (http) with context path ''
-04:05 13:26:24.481 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7894 (http)
-04:05 13:26:24.598 [main] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1531 ms
-04:05 13:26:26.540 [main] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-04:05 13:26:26.848 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port(s): 7894 (http) with context path ''
-04:05 13:32:25.137 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7894 (http)
-04:05 13:32:25.251 [main] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1600 ms
-04:05 13:32:27.246 [main] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-04:05 13:32:27.600 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port(s): 7894 (http) with context path ''
-04:05 13:37:12.281 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7894 (http)
-04:05 13:37:12.675 [main] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 2325 ms
-04:05 13:37:15.802 [main] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-04:05 13:37:16.313 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port(s): 7894 (http) with context path ''
-04:05 13:41:31.000 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7894 (http)
-04:05 13:41:31.143 [main] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1924 ms
-04:05 13:41:33.366 [main] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-04:05 13:41:33.693 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port(s): 7894 (http) with context path ''
-04:05 13:44:51.880 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7894 (http)
-04:05 13:44:52.014 [main] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1563 ms
-04:05 13:44:54.038 [main] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-04:05 13:44:54.359 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port(s): 7894 (http) with context path ''
-04:05 14:00:55.565 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7894 (http)
-04:05 14:00:55.815 [main] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1904 ms
-04:05 14:00:58.053 [main] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-04:05 14:00:58.410 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port(s): 7894 (http) with context path ''
-04:05 14:04:15.500 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7894 (http)
-04:05 14:04:15.623 [main] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1600 ms
-04:05 14:04:17.489 [main] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-04:05 14:04:17.807 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port(s): 7894 (http) with context path ''
-04:05 14:08:15.171 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7894 (http)
-04:05 14:08:15.299 [main] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1623 ms
-04:05 14:08:17.198 [main] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-04:05 14:08:17.537 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port(s): 7894 (http) with context path ''
-04:05 14:12:33.368 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7894 (http)
-04:05 14:12:33.491 [main] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1748 ms
-04:05 14:12:35.549 [main] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-04:05 14:12:35.888 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port(s): 7894 (http) with context path ''
-04:05 14:17:00.672 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7894 (http)
-04:05 14:17:00.941 [main] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 2903 ms
-04:05 14:17:05.153 [main] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-04:05 14:17:05.725 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port(s): 7894 (http) with context path ''
-04:05 14:25:14.304 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7894 (http)
-04:05 14:25:14.584 [main] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 3282 ms
-04:05 14:25:19.078 [main] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-04:05 14:25:19.898 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port(s): 7894 (http) with context path ''
-04:05 16:45:43.330 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7894 (http)
-04:05 16:45:43.617 [main] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 3210 ms
-04:05 16:45:48.413 [main] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-04:05 16:45:49.065 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port(s): 7894 (http) with context path ''
-04:05 16:49:52.909 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7894 (http)
-04:05 16:49:53.166 [main] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 2926 ms
-04:05 16:49:57.323 [main] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-04:05 16:49:57.879 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port(s): 7894 (http) with context path ''
+04:07 13:24:35.628 [main] [ERROR] [o.s.boot.SpringApplication] - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.SQLGrammarException: Unable to open JDBC Connection for DDL execution
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:136)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:141)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:90)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:138)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$8(ClassBasedTestDescriptor.java:363)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:368)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$9(ClassBasedTestDescriptor.java:363)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:310)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:362)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:283)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:282)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:272)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:271)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:102)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:101)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:66)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$2(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:90)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.SQLGrammarException: Unable to open JDBC Connection for DDL execution
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	... 82 common frames omitted
+Caused by: org.hibernate.exception.SQLGrammarException: Unable to open JDBC Connection for DDL execution
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:63)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:37)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:99)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:71)
+	at org.hibernate.tool.schema.internal.exec.ImprovedExtractionContextImpl.getJdbcConnection(ImprovedExtractionContextImpl.java:63)
+	at org.hibernate.tool.schema.internal.exec.ImprovedExtractionContextImpl.getJdbcDatabaseMetaData(ImprovedExtractionContextImpl.java:70)
+	at org.hibernate.tool.schema.extract.internal.InformationExtractorJdbcDatabaseMetaDataImpl.processTableResultSet(InformationExtractorJdbcDatabaseMetaDataImpl.java:64)
+	at org.hibernate.tool.schema.extract.internal.AbstractInformationExtractorImpl.getTables(AbstractInformationExtractorImpl.java:565)
+	at org.hibernate.tool.schema.extract.internal.DatabaseInformationImpl.getTablesInformation(DatabaseInformationImpl.java:122)
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:68)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:220)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:123)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:196)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:85)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:335)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:471)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1498)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	... 86 common frames omitted
+Caused by: java.sql.SQLSyntaxErrorException: Unknown database 'electronic_store_dev'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:824)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:444)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:237)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:181)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:44)
+	... 102 common frames omitted
+04:07 13:26:44.263 [main] [INFO] [o.s.b.t.c.SpringBootTestContextBootstrapper] - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.shruteekatech.electronic.store.ElectronicStore.ElectronicStoreApplicationTests], using SpringBootContextLoader
+04:07 13:26:44.412 [main] [INFO] [o.s.b.t.c.SpringBootTestContextBootstrapper] - Found @SpringBootConfiguration com.shruteekatech.electronic.store.ElectronicStoreApplication for test class com.shruteekatech.electronic.store.ElectronicStore.ElectronicStoreApplicationTests
+04:07 13:26:44.587 [main] [INFO] [o.s.b.t.c.SpringBootTestContextBootstrapper] - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+04:07 13:26:44.616 [main] [INFO] [o.s.b.t.c.SpringBootTestContextBootstrapper] - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7f6f61c8, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4c2cc639, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@ccb4b1b, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4097cac, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@ec2cc4, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2a5b3fee, org.springframework.test.context.transaction.TransactionalTestExecutionListener@7c1e2a2d, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@333dd51e, org.springframework.test.context.event.EventPublishingTestExecutionListener@52d645b1, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2101b44a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2cc3ad05, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@710b18a6, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@119020fb, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3d9f6567, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@c055c54]
+04:07 13:26:50.132 [main] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04:07 13:27:44.281 [main] [INFO] [o.s.b.t.c.SpringBootTestContextBootstrapper] - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.shruteekatech.electronic.store.ElectronicStore.ElectronicStoreApplicationTests], using SpringBootContextLoader
+04:07 13:27:44.396 [main] [INFO] [o.s.b.t.c.SpringBootTestContextBootstrapper] - Found @SpringBootConfiguration com.shruteekatech.electronic.store.ElectronicStoreApplication for test class com.shruteekatech.electronic.store.ElectronicStore.ElectronicStoreApplicationTests
+04:07 13:27:44.522 [main] [INFO] [o.s.b.t.c.SpringBootTestContextBootstrapper] - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+04:07 13:27:44.544 [main] [INFO] [o.s.b.t.c.SpringBootTestContextBootstrapper] - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7f6f61c8, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4c2cc639, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@ccb4b1b, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4097cac, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@ec2cc4, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2a5b3fee, org.springframework.test.context.transaction.TransactionalTestExecutionListener@7c1e2a2d, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@333dd51e, org.springframework.test.context.event.EventPublishingTestExecutionListener@52d645b1, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2101b44a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2cc3ad05, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@710b18a6, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@119020fb, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3d9f6567, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@c055c54]
+04:07 13:27:49.224 [main] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04:07 14:03:51.406 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7894 (http)
+04:07 14:03:51.856 [main] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 3523 ms
+04:07 14:03:55.573 [main] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04:07 14:03:56.124 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port(s): 7894 (http) with context path ''
+04:07 14:20:27.522 [main] [INFO] [o.s.b.t.c.SpringBootTestContextBootstrapper] - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.shruteekatech.electronic.store.ElectronicStore.ElectronicStoreApplicationTests], using SpringBootContextLoader
+04:07 14:20:27.654 [main] [INFO] [o.s.b.t.c.SpringBootTestContextBootstrapper] - Found @SpringBootConfiguration com.shruteekatech.electronic.store.ElectronicStoreApplication for test class com.shruteekatech.electronic.store.ElectronicStore.ElectronicStoreApplicationTests
+04:07 14:20:27.827 [main] [INFO] [o.s.b.t.c.SpringBootTestContextBootstrapper] - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+04:07 14:20:27.879 [main] [INFO] [o.s.b.t.c.SpringBootTestContextBootstrapper] - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7f6f61c8, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4c2cc639, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@ccb4b1b, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4097cac, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@ec2cc4, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2a5b3fee, org.springframework.test.context.transaction.TransactionalTestExecutionListener@7c1e2a2d, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@333dd51e, org.springframework.test.context.event.EventPublishingTestExecutionListener@52d645b1, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2101b44a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2cc3ad05, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@710b18a6, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@119020fb, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3d9f6567, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@c055c54]
+04:07 14:20:33.409 [main] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04:07 14:21:24.258 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7894 (http)
+04:07 14:21:24.530 [main] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 2085 ms
+04:07 14:21:27.161 [main] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04:07 14:21:27.577 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port(s): 7894 (http) with context path ''
+04:07 14:49:05.533 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7894 (http)
+04:07 14:49:05.894 [main] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 2205 ms
+04:07 14:49:08.726 [main] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04:07 14:49:09.115 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port(s): 7894 (http) with context path ''
+04:07 14:50:24.167 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7894 (http)
+04:07 14:50:24.504 [main] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 2385 ms
+04:07 14:50:27.304 [main] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04:07 14:50:27.706 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port(s): 7894 (http) with context path ''
+04:07 15:13:38.803 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7894 (http)
+04:07 15:13:39.198 [main] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 2168 ms
+04:07 15:13:41.813 [main] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04:07 15:13:42.225 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port(s): 7894 (http) with context path ''
+04:07 15:18:30.978 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 7894 (http)
+04:07 15:18:31.408 [main] [INFO] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 2482 ms
+04:07 15:18:34.087 [main] [WARN] [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+04:07 15:18:34.504 [main] [INFO] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port(s): 7894 (http) with context path ''
